@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Stephen_King_livros.css" type="text/css" media="all" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Seleção de livros Stephen King</title>
+</head>
+<body>
+    <nav class="navbar col-12 position-fixed navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+            <a class="navbar-brand" href="#">Escritores de Suspense</a>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Biografias</a>
+                      <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="Agatha_Christie_Biografia.html">Agatha Christie</a></li>
+                            <li><a class="dropdown-item" href="Stephen_King_Biografia.html">Stephen King</a></li>
+                            <li><a class="dropdown-item" href="Maurice_Leblanc_Biografia.html">Maurice Leblanc</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Duda-1/Duda-1.github.io">Repositorio Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                    <form class="d-flex" role="search"  method="post" action="#" autocomplete="off">
+                        <input class="form-control me-2" type="search" placeholder="Faça uma busca" aria-label="Search" id="palavra">
+                        <input type="button" class="btn btn-outline-success" onclick="pesquisarPalavra();">                    
+                    </form>
+        </div>
+      </div> 
+    </nav>
+    
+
+    <br/>
+    <br/>
+    
+    <div class="progress position-fixed" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <div class="--bs-body-color border border-primary-subtle">
+        <div class="container h-secondary__container">
+            <span>Destaques:</span>
+            <ul class="h-secondary__list">
+                <li class="h-secondary__item">
+                    <a href="https://www.submarino.com.br/landingpage/stephen-king" target="_blank"> Coleção livros do "Rei do Terror", Stephen King</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+  <br />
+
+    <div class="title">
+        <h1>Principais obras de terror públicadas
+            <br /> pelo "O Rei do Terror"</h1>
+        <p>Livros que não podem faltar em sua estante.</p>
+    </div>
+  
+    <div class="img">
+        <img src="img/download (6).jfif" class="shadow p-3 mb-5 bg-white rounded mx-auto d-block" alt="...">
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-3">
+            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link" href="#item-1">Livro: Carrie</a>
+                    <a class="nav-link" href="#item-2">Livro: O Iluminado</a>
+                    <a class="nav-link" href="#item-3">Livro: A Dança da Morte</a>
+                    <a class="nav-link" href="#item-4">Livro: A Incendiária</a>
+                    <a class="nav-link" href="#item-5">Livro: O Cemitério</a>
+                    <a class="nav-link" href="#item-6">Livro: Tripulação de Esqueletos</a>
+                    <a class="nav-link" href="#item-7">Livro: A Coisa (It)</a>
+                    <a class="nav-link" href="#item-8">Livro: O Apanhador de Sonhos</a>
+                    <a class="nav-link" href="#item-9">Livro: Doutor Sono</a>
+                </nav>
+            </nav>
+        </div>
+      
+        <div class="col-6">
+            <div id="texto" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                    <h4>Carrie</h4>
+                    <p>Carrie é uma adolescente tímida e solitária. Aos 16 anos, é completamente dominada pela mãe, uma fanática religiosa que 
+                        reprime todas as vontades e descobertas normais aos jovens de sua idade. Para Carrie, tudo é pecado. Viver é enfrentar 
+                        todo dia o terrível peso da culpa. Para os colegas de escola, e até para os professores, Carrie é uma garota estranha, 
+                        incapaz de conviver com os outros. Cada vez mais isolada, ela sofre com o sarcasmo e o deboche dos colegas. No entanto,
+                        há um segredo por trás de sua aparência frágil: Carrie tem poderes sobrenaturais, é capaz de mover objetos com a mente. 
+                        No dia de sua formatura, Carrie é surpreendida pelo convite de Tommy para a festa - algo que lhe dá a chance de se enxergar 
+                        de outra forma pela primeira vez. O ato de crueldade que acontece naquele salão, porém, dá início a uma reviravolta cheia de 
+                        terror e destruição. Chegou a hora do acerto de contas. Carrie, a estranha é um dos maiores clássicos de terror da literatura 
+                        contemporânea e um dos livros mais aclamados de Stephen King.
+
+                    </p>
+                    <p style="font-weight: bold; font-style: italic; text-align: center;">"Sua própria respiração se transformou em vidro em sua garganta."</p>
+                    <p> <b>Editora: </b> Suma</p>
+                    <p> <b>Páginas:</b> 270</p>
+                    <p> <b>Ano de Publicação: </b> 1974</p>
+                    <p><b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>  
+                <div id="item-2">
+                    <h4>O Iluminado</h4>
+                    <p>“O lugar perfeito para recomeçar”, é o que pensa Jack Torrance ao ser contratado como zelador para o inverno. Hora de deixar 
+                        para trás o alcoolismo, os acessos de fúria, os repetidos fracassos. Isolado pela neve com a esposa e o filho, tudo o que 
+                        Jack deseja é um pouco de paz para se dedicar à escrita. Mas, conforme o inverno se aprofunda, o local paradisíaco começa 
+                        a parecer cada vez mais remoto... e mais sinistro. Forças malignas habitam o Overlook, e tentam se apoderar de Danny Torrance, 
+                        um garotinho com grandes poderes sobrenaturais. Possuir o menino, no entanto, se mostra mais difícil do que esperado. Então os 
+                        espíritos resolvem se aproveitar das fraquezas do pai.</p>
+
+                    <p style="font-weight: bold; font-style: italic; text-align: center;">"As lágrimas que curam são também lágrimas que escaldam e castigam."</p>
+
+                    <p> <b>Editora: </b> Suma </p>
+                    <p> <b>Páginas:</b> 520</p>
+                    <p> <b>Ano de Publicação: </b> 1977</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+                <div id="item-3">
+                    <h4>A Dança da Morte</h4>
+                    <p>Após um erro de computação no Departamento de Defesa, um vírus é liberado, dando origem à doença que ficará conhecida como 
+                        Capitão Viajante, ou “supergripe”. Não demora muito para que um milhão de contatos casuais formem uma cadeia de morte, e é 
+                        assim que o mundo como o conhecemos acaba. O que surge no lugar é um mundo árido, sem instituições e esvaziado de 99% da 
+                        população. Um mundo onde sobreviventes em pânico escolhem seus lados ― ou são escolhidos. Os bons se apoiam nos ombros frágeis 
+                        de Mãe Abigail, com seus cento e oito anos de idade, enquanto todo o mal é incorporado por um indivíduo de poderes indizíveis: 
+                        Randall Flagg, o homem escuro.</p>
+                        <p style="font-weight: bold; font-style: italic; text-align: center;">"Num mundo em que tantos já morreram,provocar mais morte é certamente omais graves dos pecados."</p>
+                    <p> <b>Editora: </b> Suma </p>
+                    <p> <b>Páginas:</b> 1248</p>
+                    <p> <b>Ano de Publicação: </b> 1978</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+                <div id="item-4">
+                    <h4>A Incendiária</h4>
+                    <p>Andy e Vicky eram apenas universitários precisando de renda extra quando se voluntariaram para um experimento científico de 
+                        uma organização governamental clandestina conhecida como “a Oficina”. Jamais poderiam imaginar que esse dinheiro viria 
+                        acompanhado de estranhos poderes psíquicos, que assumiriam efeitos ainda mais perigosos quando os dois se apaixonassem e 
+                        tivessem uma filha, Charlie. Desde pequena, Charlie demonstra ter herdado forças incontroláveis que a definem como pirocinética, 
+                        ou seja, capaz de criar fogo só com a mente. Agora, o governo está à caça da garotinha, tentando capturá-la para utilizar seu 
+                        poder como arma militar. Acompanhada do pai, Charlie percorre o país em uma fuga desesperada, e percebe que talvez seu poder 
+                        seja sua única chance de escapar.</p>
+
+                    <p style="font-weight: bold; font-style: italic; text-align: center;">"O cérebro é um músculo que pode mover o mundo."</p>
+                    <p> <b>Editora: </b> Suma </p>
+                    <p> <b>Páginas:</b> 450</p>
+                    <p> <b>Ano de Publicação: </b> 1980</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+                <div id="item-5">
+                    <h4>O Cemitério</h4>
+                    <p> Louis Creed, um jovem médico de Chicago, acredita que encontrou seu lugar em uma pequena cidade do Maine. A boa casa, o 
+                        trabalho na universidade e a felicidade da esposa e dos filhos lhe trazem a certeza de que fez a melhor escolha. Num dos 
+                        primeiros passeios pela região, conhecem um cemitério no bosque próximo à sua casa. Ali, gerações de crianças enterraram 
+                        seus animais de estimação. Mas, para além dos pequenos túmulos, há um outro cemitério. Uma terra maligna que atrai pessoas 
+                        com promessas sedutoras. Um universo dominado por forças estranhas capazes de tornar real o que sempre pareceu impossível. 
+                        A princípio, Louis Creed se diverte com as histórias fantasmagóricas do vizinho Crandall. No entanto, quando o gato de sua 
+                        filha Eillen morre atropelado e, subitamente, retorna à vida, ele percebe que há coisas que nem mesmo a sua ciência pode explicar.</p>
+                   
+                    <p style="font-weight: bold; font-style: italic; text-align: center;">"Talvez ela aprenda alguma coisa sobre o que a morte realmente 
+                        é: o ponto em que a dor cessa e as boas memórias começam. Não é o fim da vida, mas o fim da dor."</p>
+                    <p> <b>Editora: </b> Suma </p>
+                    <p> <b>Páginas:</b> 424</p>
+                    <p> <b>Ano de Publicação: </b> 1983</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+                <div id="item-6">
+                    <h4>Tripulação de Esqueletos</h4>
+                    <p>Nesta aterrorizante coletânea de contos, Stephen King nos mostra mais uma vez por que é um dos mais aclamados escritores 
+                        da atualidade. Um contador de histórias por excelência, aqui ele revela o amplo leque de suas habilidades, transitando 
+                        com desenvoltura pelo pavor causado por criaturas abomináveis e por um terror psicológico de gelar o sangue. Os protagonistas 
+                        se veem forçados a lidar com situações fantásticas em que o que está em jogo é a sanidade diante do inimaginável.</p>
+                    <p style="font-weight: bold; font-style: italic; text-align: center;">"Ricky, que caíra do galho mais alto da árvore em seu
+                        quintal de Schenectady, quando contava apenas sete anos, tendo quebrado o
+                        braço (e tivera sorte, pois fora apenas o braço que quebrara); Ricky, que ousava
+                        ir mais depressa e mais longe em seu skate do que qualquer outro garoto da
+                        vizinhança; Ricky , que era sempre o primeiro a enfrentar qualquer desafio. Ricky
+                        e medo não se davam bem. <br/>
+                        Até agora."</p>
+                    <p> <b>Editora: </b> Ponto de leitura </p>
+                    <p> <b>Páginas:</b> 856</p>
+                    <p> <b>Ano de Publicação: </b> 1985</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+                <div id="item-7">
+                    <h4>A Coisa (It)</h4>
+                    <p>Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. 
+                    Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um 
+                    ser sobrenatural e maligno que pode assumir várias formas. É assim que Bill, Beverly, Eddie, Ben, Richie, Mike e Stan enfrentam a 
+                    Coisa pela primeira vez. Quase trinta anos depois, o grupo volta a se encontrar. Mike, o único que permaneceu em Derry, dá o sinal ― 
+                    uma nova onda de terror tomou a pequena cidade. É preciso unir forças novamente. Só eles têm a chave do enigma. Só eles sabem o que 
+                    se esconde nas entranhas de Derry. Só eles podem vencer a Coisa.</p>
+                    <p style="font-weight: bold; font-style: italic; text-align: center;">
+                        "Tudo fica bem mais difícil quando é de verdade. É aí que você engasga. Quando é de verdade."
+                   </p>
+                    <p> <b>Editora: </b> Suma </p>
+                    <p> <b>Páginas:</b> 1104</p>
+                    <p> <b>Ano de Publicação: </b> 1986</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+                <div id="item-8">
+                    <h4>O Apanhador de Sonhos</h4>
+                    <p>Gary, Pete, Joe e Henry são apenas adolescentes quando, em um ato de coragem, salvam um colega com síndrome de down 
+                        do ataque de bullies. O que acontece depois - os poderes que passam a compartilhar, dividindo sonhos e pensamentos - 
+                        serve apenas para fortalecer ainda mais a amizade entre eles. Anos depois, o grupo ainda se reúne para temporadas de 
+                        caça nos bosques do Maine. É quando, em uma dessas incursões, encontram um forasteiro, confuso e murmurando frases 
+                        desconexas sobre luzes no céu. Logo os quatro amigos se veem envolvidos em uma batalha com criaturas alienígenas que 
+                        há muito procuram meios de invadir o planeta. Agora a única chance de sobrevivência parece residir no passado que eles 
+                        compartilham - e no misterioso Apanhador de Sonhos.</p>
+                    <p style="font-weight: bold; font-style: italic; text-align: center;">"E assim, aquele que se anuncia como O Apanhador de Sonhos, 
+                        na verdade, resulta num verdadeiro “colecionador de tolos"</p>
+                    <p> <b>Editora: </b> Suma </p>
+                    <p> <b>Páginas:</b> 656 </p>
+                    <p> <b>Ano de Publicação: </b> 2001</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+                <div id="item-9">
+                    <h4>Doutor Sono</h4>
+                    <p>Em Doutor Sono, King dá continuidade a história do garoto no centro de O iluminado, depois de sua terrível experiência no Overlook Hotel, 
+                        contando a vida de Dan, agora um homem de meia-idade, e Abra Stone, uma menina de doze anos com um grande poder. Assombrado 
+                        pelos habitantes do Overlook Hotel, onde passou um ano terrível da infância, Dan ficou à deriva por décadas, desesperado para 
+                        se livrar do legado de alcoolismo e violência do pai. Por fim, ele se instala em uma cidade de New Hampshire, onde encontra 
+                        abrigo em uma comunidade do Alcoólicos Anônimos que o apoia e um emprego em uma casa de repouso, onde seu poder remanescente 
+                        da iluminação fornece o conforto final para aqueles que estão morrendo. Ajudado por um gato que prevê a morte dos pacientes, 
+                        ele se torna o Doutor Sono. Então Dan conhece Abra Stone, uma menina com um dom espetacular, a iluminação mais forte que já se viu. 
+                        Ela desperta os demônios de seu passado e Dan se vê envolvido em uma batalha pela alma e sobrevivência dela.</p>
+
+                        <p style="font-weight: bold; font-style: italic; text-align: center;">"Uma hora se percebe que não adianta ficar mudando de 
+                            lugar. Que você se leva para onde for."</p>
+                    <p> <b>Editora: </b> Suma </p>
+                    <p> <b>Páginas:</b> 480</p>
+                    <p> <b>Ano de Publicação: </b> 2013</p>
+                    <p> <b>Gênero: </b> Terror / Suspense / Drama</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3"><img src="img/1de23cf1-649c-4a99-8252-9cf10d2cbec9.jfif" class="img-fluid" alt=""></div>
+    </div>
+
+    <br/>
+
+    <div class="container">
+      <nav class="nav justify-content-center border-bottom pb-3 mb-3">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="Agatha_Christie_Biografia.html">Previous</a>
+            </li>
+            <li class="page-item" aria-current="page">
+              <a class="page-link" href="Agatha_Christie_Biografia.html">1</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="Maurice_Leblanc_Biografia.html">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="Maurice_Leblanc_Biografia.html">Next</a>
+            </li>
+          </ul>
+        </nav>
+  </div> 
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("progress-bar").style.width = scrolled + "%";
+} 
+</script>
+
+ <!-- FOOTER -->
+ <footer class="bg-dark border-top">
+    <ul style="list-style: none; text-align: center; padding: 1rem 0 0 0;" class="border-bottom pb-3 mb-3">
+      <li><a href="#" style="text-decoration: none;" class="px-2 text-white">Voltar ao Inicio</a></li></ul>
+      <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="Home.html" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item"><a href="Agatha_Christie_Biografia.html" class="nav-link px-2 text-white">Agatha Christie</a></li>
+        <li class="nav-item"><a href="Stephen_King_Biografia.html" class="nav-link px-2 text-white">Stephen King</a></li>
+        <li class="nav-item"><a href="Maurice_Leblanc_Biografia.html" class="nav-link px-2 text-white">Maurice Leblanc</a></li>
+        <li class="nav-item"><a href="https://github.com/Duda-1/Duda-1.github.io" class="nav-link px-2 text-white">Repositorio Github</a></li>
+      </ul>
+      <p class="text-center text-white height">&copy; 2023 Projeto Autoria Web</p>
+    </footer>
+</footer>
+
+<!-- Esses scripts implementa a caixa de pesquisa, como eu tinha quatro diferentes partes de pesquisa criei esses quatro scripts -->
+<script>
+    function pesquisarPalavra() {
+        var palavra = document.getElementById('palavra').value.toLowerCase();
+        var texto = document.getElementById('texto').innerHTML;
+  
+        // Remove a formatação anterior
+        var textoLimpo = texto.replace(/<span class="marcar">/g, '');
+        textoLimpo = textoLimpo.replace(/<\/span>/g, '');
+  
+        if (textoLimpo.toLowerCase().includes(palavra)) {
+            var regex = new RegExp(palavra, 'ig'); // 'ig' torna a pesquisa insensível a maiúsculas e minúsculas
+            texto = texto.replace(regex, '<span class="marcar">$&</span>');
+            document.getElementById('texto').innerHTML = texto;
+        }
+    }
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
